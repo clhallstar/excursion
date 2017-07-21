@@ -1,12 +1,12 @@
 .header {
-  font-family: Verdana;
   font-weight: normal;
   font-size: 50px;
-  color: white;
-  text-align: center;
 }
 html {
   background-color: black;
+  font-family: Verdana;
+  text-align: center;
+  color: white;
 }
 
 #download {
@@ -15,6 +15,18 @@ html {
   text-align: center;
 }
 
-.video {
-  text-align: center;
+.body h2 {
+  font-weight: 300;
+  font-size: 42px;
+}
+
+.body p {
+  font-size: 21px;
+  color: gray;
+}
+
+#copyright {
+  font-size: 21px;
+  color: gray;
+  text-align: right;
 }
